@@ -1,3 +1,4 @@
+import CTASection from "./components/CTASection";
 import Header from "./components/header/Index";
 import LandingSection from "./components/LandingSection";
 import ServicesSection from "./components/services/Index";
@@ -10,6 +11,7 @@ function App() {
       <LandingSection />
       <Sponsors />
       <ServicesSection />
+      <CTASection />
     </>
   );
 }

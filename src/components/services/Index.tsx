@@ -1,6 +1,5 @@
 import { servicesElements } from "../../data/services";
 import SectionHeading from "../global/SectionHeading";
-import ServiceCard from "./ServiceCard";
 
 function ServicesSection() {
   return (
