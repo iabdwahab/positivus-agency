@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import { serviceCardProps } from "../../types/services";
 
 function ServiceCard({ theme, titleFirst, titleSecond, illustration }: serviceCardProps) {
@@ -30,7 +29,7 @@ function ServiceCard({ theme, titleFirst, titleSecond, illustration }: serviceCa
   };
 
   return (
-    <div className={`${clsx(colors[theme].card)} border-secondary grid grid-cols-2 grid-rows-2 items-center rounded-4xl border border-b-[5px] p-8 md:gap-8 lg:p-12`}>
+    <div className={`${colors[theme].card} border-secondary grid grid-cols-2 grid-rows-2 items-center rounded-4xl border border-b-[5px] p-8 md:gap-8 lg:p-12`}>
       <div className="grid items-stretch max-sm:col-span-2">
         <h3 className="flex w-fit flex-col text-2xl font-medium text-black">
           <span className={`${colors[theme].title} w-fit rounded-lg p-[2px]`}>{titleFirst}</span>
