@@ -3,7 +3,7 @@ import RequestQuoteLink from './RequestQuoteLink';
 
 function NavbarMobile() {
   return (
-    <div className="grid justify-center gap-4 py-8 absolute top-full left-0 w-full text-lg lg:hidden">
+    <div className="hidden grid justify-center gap-4 py-8 absolute top-full left-0 w-full text-lg lg:hidden bg-white border-b">
       <nav>
         <ul className="grid justify-center auto-rows-[minmax(40px,1fr)] text-center">{navLinksElements}</ul>
       </nav>
