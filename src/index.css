@@ -1,1 +1,14 @@
 @import 'tailwindcss';
+@config '../tailwind.config.ts';
+
+@theme {
+  --font-space-grotesk: 'Space Grotesk', sans-serif;
+
+  --color-primary: #b9ff66;
+  --color-secondary: #191a23;
+  --color-gray: #f3f3f3;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
