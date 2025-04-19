@@ -1,29 +1,29 @@
 export const navLinks = [
   {
     id: 0,
-    name: 'About us',
+    name: "About us",
   },
   {
     id: 1,
-    name: 'Services',
+    name: "Services",
   },
   {
     id: 2,
-    name: 'Use Cases',
+    name: "Use Cases",
   },
   {
     id: 3,
-    name: 'Pricing',
+    name: "Pricing",
   },
   {
     id: 4,
-    name: 'Blog',
+    name: "Blog",
   },
 ];
 
 export const navLinksElements = navLinks.map((link) => (
   <li key={link.id}>
-    <a href="#" className="flex justify-center items-center h-full py-1 px-4 hover:bg-primary border border-transparent hover:border-black transition duration-fast rounded">
+    <a href="#" className="hover:bg-primary duration-fast flex h-full items-center justify-center rounded border border-transparent px-4 py-1 transition hover:border-black">
       {link.name}
     </a>
   </li>

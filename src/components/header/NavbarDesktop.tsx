@@ -1,5 +1,5 @@
-import { navLinksElements } from '../../data/navLinks';
-import RequestQuoteLink from './RequestQuoteLink';
+import { navLinksElements } from "../../data/navLinks";
+import RequestQuoteLink from "./RequestQuoteLink";
 
 function NavbarDesktop() {
   return (

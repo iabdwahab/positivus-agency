@@ -1,9 +1,9 @@
-import NavbarDesktop from './NavbarDesktop';
-import NavbarMobile from './NavbarMobile';
+import NavbarDesktop from "./NavbarDesktop";
+import NavbarMobile from "./NavbarMobile";
 
 function Header() {
   return (
-    <header className="relative container h-20 flex justify-between items-center">
+    <header className="relative container flex h-20 items-center justify-between">
       <div>
         <a href="#">
           <img src="/logo-dark.svg" alt="Positivus Logo" className="w-40 lg:w-48" />

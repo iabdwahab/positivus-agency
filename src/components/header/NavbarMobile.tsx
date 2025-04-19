@@ -1,11 +1,11 @@
-import { navLinksElements } from '../../data/navLinks';
-import RequestQuoteLink from './RequestQuoteLink';
+import { navLinksElements } from "../../data/navLinks";
+import RequestQuoteLink from "./RequestQuoteLink";
 
 function NavbarMobile() {
   return (
-    <div className="hidden grid justify-center gap-4 py-8 absolute top-full left-0 w-full text-lg lg:hidden bg-white border-b">
+    <div className="absolute top-full left-0 hidden w-full justify-center gap-4 border-b bg-white py-8 text-lg lg:hidden">
       <nav>
-        <ul className="grid justify-center auto-rows-[minmax(40px,1fr)] text-center">{navLinksElements}</ul>
+        <ul className="grid auto-rows-[minmax(40px,1fr)] justify-center text-center">{navLinksElements}</ul>
       </nav>
       <RequestQuoteLink />
     </div>

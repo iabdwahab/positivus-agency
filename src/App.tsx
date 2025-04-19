@@ -1,5 +1,5 @@
-import Header from './components/header/Index';
-import LandingSection from './components/LandingSection';
+import Header from "./components/header/Index";
+import LandingSection from "./components/LandingSection";
 
 function App() {
   return (
