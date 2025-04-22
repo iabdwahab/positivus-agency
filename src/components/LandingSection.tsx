@@ -1,3 +1,5 @@
+import landingImage from "/home/landing.svg";
+
 function LandingSection() {
   return (
     <main className="container grid items-center justify-center gap-6 py-3 max-lg:text-center lg:grid-cols-2 lg:gap-18">
@@ -8,7 +10,7 @@ function LandingSection() {
       </div>
 
       <div className="order-1 lg:order-2">
-        <img src="/home/landing.svg" alt="Illustration" className="w-full" />
+        <img src={landingImage} alt="Illustration" className="w-full" />
       </div>
     </main>
   );

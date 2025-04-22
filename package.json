@@ -15,7 +15,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --base=/positivus-agency/",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",

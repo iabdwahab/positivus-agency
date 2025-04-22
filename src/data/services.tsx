@@ -1,47 +1,54 @@
 import ServiceCard from "../components/services/ServiceCard";
 import { serviceCardInterface } from "../types/services";
 
+import seoImage from "/home/services/seo.svg";
+import advertisingImage from "/home/services/advertising.svg";
+import sociaImage from "/home/services/social.svg";
+import emailImage from "/home/services/email.svg";
+import contentImage from "/home/services/content.svg";
+import analyticsImage from "/home/services/analytics.svg";
+
 export const servicesList: serviceCardInterface[] = [
   {
     id: 0,
     titleFirst: "Search engine",
     titleSecond: "optimization",
-    illustration: "/home/services/seo.svg",
+    illustration: seoImage,
     theme: "light",
   },
   {
     id: 1,
     titleFirst: "Pay-per-click",
     titleSecond: "advertising",
-    illustration: "/home/services/advertising.svg",
+    illustration: advertisingImage,
     theme: "green",
   },
   {
     id: 2,
     titleFirst: "Social Media",
     titleSecond: "Marketing",
-    illustration: "/home/services/social.svg",
+    illustration: sociaImage,
     theme: "dark",
   },
   {
     id: 3,
     titleFirst: "Email",
     titleSecond: "Marketing",
-    illustration: "/home/services/email.svg",
+    illustration: emailImage,
     theme: "light",
   },
   {
     id: 4,
     titleFirst: "Content",
     titleSecond: "Creation",
-    illustration: "/home/services/content.svg",
+    illustration: contentImage,
     theme: "green",
   },
   {
     id: 5,
     titleFirst: "Analytics and",
     titleSecond: "Tracking",
-    illustration: "/home/services/analytics.svg",
+    illustration: analyticsImage,
     theme: "dark",
   },
 ];

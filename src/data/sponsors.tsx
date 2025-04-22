@@ -1,32 +1,39 @@
+import amazonImage from "/sponsors/amazon.svg";
+import dribbbleImage from "/sponsors/dribbble.svg";
+import hubspotImage from "/sponsors/hubspot.svg";
+import netflixImage from "/sponsors/netflix.svg";
+import notionImage from "/sponsors/notion.svg";
+import zoomImage from "/sponsors/zoom.svg";
+
 export const sponsors = [
   {
     id: 0,
-    url: "/sponsors/amazon.svg",
+    url: amazonImage,
     alt: "Amazon",
   },
   {
     id: 1,
-    url: "/sponsors/dribbble.svg",
+    url: dribbbleImage,
     alt: "Dribbble",
   },
   {
     id: 2,
-    url: "/sponsors/hubspot.svg",
+    url: hubspotImage,
     alt: "Hubspot",
   },
   {
     id: 3,
-    url: "/sponsors/netflix.svg",
+    url: netflixImage,
     alt: "Netflix",
   },
   {
     id: 4,
-    url: "/sponsors/notion.svg",
+    url: notionImage,
     alt: "Notion",
   },
   {
     id: 5,
-    url: "/sponsors/zoom.svg",
+    url: zoomImage,
     alt: "Zoom",
   },
 ];
@@ -36,4 +43,3 @@ export const sponsorsElements = sponsors.map((sponsor) => (
     <img src={sponsor.url} alt={sponsor.alt} className="duration-normal w-full grayscale transition hover:grayscale-0" />
   </div>
 ));
-// export const sponsorsElements = sponsors.map((sponsor) => (
