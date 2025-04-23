@@ -1,4 +1,5 @@
 import CaseStudies from "./components/case_studies_section/Index";
+import ContactSection from "./components/contact_section/Index";
 import CTASection from "./components/CTASection";
 import Footer from "./components/footer/Index";
 import Header from "./components/header/Index";
@@ -17,6 +18,7 @@ function App() {
       <CTASection />
       <CaseStudies />
       <WorkingProcess />
+      <ContactSection />
       <Footer />
     </>
   );
