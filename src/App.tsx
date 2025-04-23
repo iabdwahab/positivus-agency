@@ -1,3 +1,4 @@
+import CaseStudies from "./components/case_studies_section/Index";
 import CTASection from "./components/CTASection";
 import Header from "./components/header/Index";
 import LandingSection from "./components/LandingSection";
@@ -12,6 +13,7 @@ function App() {
       <Sponsors />
       <ServicesSection />
       <CTASection />
+      <CaseStudies />
     </>
   );
 }
