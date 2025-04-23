@@ -53,4 +53,4 @@ export const servicesList: serviceCardInterface[] = [
   },
 ];
 
-export const servicesElements = servicesList.map((service) => <ServiceCard {...service} />);
+export const servicesElements = servicesList.map((service) => <ServiceCard key={service.id} {...service} />);
