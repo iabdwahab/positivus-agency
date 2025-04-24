@@ -1,26 +1,16 @@
-import CaseStudies from "./components/case_studies_section/Index";
-import ContactSection from "./components/contact_section/Index";
-import CTASection from "./components/CTASection";
-import Footer from "./components/footer/Index";
-import Header from "./components/header/Index";
-import LandingSection from "./components/LandingSection";
-import ServicesSection from "./components/services/Index";
-import Sponsors from "./components/Sponsors";
-import WorkingProcess from "./components/working_process/Index";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Layout from "./pages/Layout";
 
 function App() {
   return (
-    <>
-      <Header />
-      <LandingSection />
-      <Sponsors />
-      <ServicesSection />
-      <CTASection />
-      <CaseStudies />
-      <WorkingProcess />
-      <ContactSection />
-      <Footer />
-    </>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+        </Route>
+      </Routes>
+    </HashRouter>
   );
 }
 
