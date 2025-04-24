@@ -1,6 +1,6 @@
 import landingImage from "/home/landing.svg";
 
-function LandingSection() {
+function HomeLanding() {
   return (
     <main className="container grid items-center justify-center gap-6 py-3 max-lg:text-center lg:grid-cols-2 lg:gap-18">
       <div className="order-2 flex flex-col gap-6 lg:order-1 lg:gap-8">
@@ -15,4 +15,4 @@ function LandingSection() {
     </main>
   );
 }
-export default LandingSection;
+export default HomeLanding;
