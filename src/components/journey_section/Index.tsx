@@ -3,7 +3,7 @@ import SectionHeading from "../global/SectionHeading";
 
 function JourneySection() {
   return (
-    <section className="container">
+    <section className="section container">
       <SectionHeading>
         <SectionHeading.Title>Our Journey</SectionHeading.Title>
         <SectionHeading.Description>From humble beginnings to industry leaders, discover how Positivus has evolved to drive success for businesses worldwide.</SectionHeading.Description>
