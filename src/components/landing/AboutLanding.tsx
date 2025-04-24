@@ -3,7 +3,7 @@ import landingImage from "/about/landing.svg";
 function AboutLanding() {
   return (
     <main className="container">
-      <div className="bg-gray mb-4 grid max-h-screen items-center justify-center rounded-xl px-4 py-6 max-lg:text-center lg:grid-cols-2">
+      <div className="bg-gray mb-4 grid items-center justify-center rounded-xl px-4 py-6 max-lg:text-center lg:grid-cols-2">
         <div>
           <img src={landingImage} alt="Illustration" className="mx-auto w-full max-w-[450px]" />
         </div>
