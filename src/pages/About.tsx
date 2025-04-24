@@ -1,3 +1,4 @@
+import AwardsSection from "../components/awards_section/Index";
 import CoreValuesSection from "../components/core_values_section/Index";
 import ImpactSection from "../components/impact_section/Index";
 import JourneySection from "../components/journey_section/Index";
@@ -10,6 +11,7 @@ function About() {
       <ImpactSection />
       <JourneySection />
       <CoreValuesSection />
+      <AwardsSection />
     </>
   );
 }
