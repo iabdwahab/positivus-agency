@@ -1,4 +1,5 @@
 import LandingCard from "../components/landing/LandingCard";
+import SEOProcessSection from "../components/seo_process_section/Index";
 import SEOService from "../components/SEOService";
 
 import landingIllustration from "/services/landing.svg";
@@ -13,6 +14,7 @@ function Services() {
       </LandingCard>
 
       <SEOService />
+      <SEOProcessSection />
     </>
   );
 }

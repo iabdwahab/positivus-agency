@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import { workingProcessInterface } from "../../types/workingProcess";
+import { addLeadingZero } from "../../utils/numbers";
 
 function Accordion({ data, index }: { data: workingProcessInterface; index: number }) {
   const [isOpen, setIsOpen] = useState(index === 0 ? true : false); // Open the first accordion by default
@@ -15,10 +16,7 @@ function Accordion({ data, index }: { data: workingProcessInterface; index: numb
     <div className={`${isOpen ? "bg-primary" : "bg-gray"} duration-normal rounded-4xl border border-b-4 p-2 transition lg:p-6`}>
       <button onClick={toggleAccordion} className="flex w-full cursor-pointer items-center justify-between gap-4 rounded-lg p-2 focus-visible:outline">
         <div className="flex items-center gap-4 font-medium">
-          <span className="text-2xl lg:text-5xl">
-            {index < 9 && "0"}
-            {index + 1}
-          </span>
+          <span className="text-2xl lg:text-5xl">{addLeadingZero(index + 1)}</span>
           <h4 className="text-left lg:text-3xl">{title}</h4>
         </div>
 
