@@ -1,7 +1,7 @@
 function CaseStudyCard({ title, description }: { title?: string; description: string }) {
   return (
-    <div className="flex flex-col gap-4">
-      {title && <h2 className="text-2xl font-bold">{title}</h2>}
+    <div className="flex flex-col justify-between gap-4">
+      {title && <h2 className="text-3xl font-bold">{title}</h2>}
       <p>{description}</p>
       <button className="text-primary hover:bg-primary hover:text-secondary duration-fast flex w-fit cursor-pointer items-center gap-3 rounded-lg border px-4 py-2 transition">
         <span>Learn more</span>

@@ -1,7 +1,6 @@
-import { homeCaseStudiesElements } from "../../data/homeCaseStudies";
 import SectionHeading from "../global/SectionHeading";
 
-function CaseStudies() {
+function CaseStudies({ caseStudiesElements }: { caseStudiesElements: React.ReactNode }) {
   return (
     <section className="container">
       <SectionHeading>
@@ -9,7 +8,7 @@ function CaseStudies() {
         <SectionHeading.Description>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</SectionHeading.Description>
       </SectionHeading>
 
-      <div className="bg-secondary mb-8 grid gap-8 rounded-4xl p-10 text-white md:grid-cols-2 lg:grid-cols-3 lg:p-18">{homeCaseStudiesElements}</div>
+      <div className="bg-secondary mb-8 grid gap-8 rounded-4xl p-10 text-white md:grid-cols-2 lg:grid-cols-3 lg:p-18">{caseStudiesElements}</div>
     </section>
   );
 }

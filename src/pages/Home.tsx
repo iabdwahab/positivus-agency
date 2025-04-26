@@ -5,6 +5,7 @@ import LandingSection from "../components/landing/HomeLanding";
 import ServicesSection from "../components/services/Index";
 import Sponsors from "../components/Sponsors";
 import WorkingProcess from "../components/working_process/Index";
+import { homeCaseStudiesElements } from "../data/homeCaseStudies";
 
 function Home() {
   return (
@@ -13,7 +14,7 @@ function Home() {
       <Sponsors />
       <ServicesSection />
       <CTASection />
-      <CaseStudies />
+      <CaseStudies caseStudiesElements={homeCaseStudiesElements} />
       <WorkingProcess />
       <ContactSection />
     </>
