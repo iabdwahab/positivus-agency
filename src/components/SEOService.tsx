@@ -3,9 +3,10 @@ import icon from "/global/logo-icon-light.svg";
 function SEOService() {
   return (
     <section className="section container">
-      <div className="bg-secondary grid grid-cols-[auto_auto_1fr] gap-8 rounded-4xl px-10 py-12">
-        <div>
-          <img src={icon} alt="Icon" className="w-12" />
+      <div className="bg-secondary grid gap-8 rounded-4xl px-8 py-12 md:px-10 lg:grid-cols-[auto_auto_1fr]">
+        <div className="flex items-center gap-4 lg:items-start">
+          <img src={icon} alt="Icon" className="2 w-8" />
+          <p className="text-primary text-lg lg:hidden">FEATURED</p>
         </div>
         <div>
           <h3 className="flex w-fit flex-col text-2xl font-medium text-black">
