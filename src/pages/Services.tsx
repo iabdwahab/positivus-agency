@@ -1,0 +1,16 @@
+import LandingCard from "../components/landing/LandingCard";
+
+import landingIllustration from "/services/landing.svg";
+
+function Services() {
+  return (
+    <>
+      <LandingCard>
+        <LandingCard.Heading text="Expert Digital Marketing Services" />
+        <LandingCard.Description text="We offer a wide range of digital marketing services to help your business grow online. Our team of experts is dedicated to providing you with the best solutions tailored to your needs." />
+        <LandingCard.Image src={landingIllustration} />
+      </LandingCard>
+    </>
+  );
+}
+export default Services;
