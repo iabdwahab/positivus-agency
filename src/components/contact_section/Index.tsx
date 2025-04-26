@@ -1,6 +1,6 @@
 import SectionHeading from "../global/SectionHeading";
 import ContactForm from "./ContactForm";
-import illustration from "/contact-illustration.svg";
+import illustration from "/global/contact-illustration.svg";
 
 function ContactSection() {
   return (

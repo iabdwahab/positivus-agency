@@ -1,5 +1,5 @@
 import { navLinksFooterElements } from "../../data/navLinks";
-import logoLight from "/logo-light.svg";
+import logoLight from "/global/logo-text-light.svg";
 
 import linkedinIcon from "/social/linkedin-light.svg";
 import facebookIcon from "/social/facebook-light.svg";

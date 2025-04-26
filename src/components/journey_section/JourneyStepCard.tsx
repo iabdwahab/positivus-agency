@@ -1,4 +1,4 @@
-import icon from "/logo-notext.svg";
+import icon from "/global/logo-icon-light.svg";
 
 function JourneyStepCard({ title, description }: { title: string; description: string }) {
   return (

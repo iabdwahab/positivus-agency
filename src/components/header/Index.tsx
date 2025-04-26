@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import NavbarDesktop from "./NavbarDesktop";
 import NavbarMobile from "./NavbarMobile";
 
-import logoDark from "/logo-dark.svg";
+import logoDark from "/global/logo-text-dark.svg";
 
 function Header() {
   return (
