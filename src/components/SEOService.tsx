@@ -5,7 +5,7 @@ function SEOService() {
     <section className="section container">
       <div className="bg-secondary grid gap-8 rounded-4xl px-8 py-12 md:px-10 lg:grid-cols-[auto_auto_1fr]">
         <div className="flex items-center gap-4 lg:items-start">
-          <img src={icon} alt="Icon" className="2 w-8" />
+          <img src={icon} alt="Icon" className="w-8" />
           <p className="text-primary text-lg lg:hidden">FEATURED</p>
         </div>
         <div>
