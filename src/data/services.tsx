@@ -1,4 +1,4 @@
-import ServiceCard from "../components/services/ServiceCard";
+import ServiceCard from "../components/services_section/ServiceCard";
 import { serviceCardInterface } from "../types/services";
 
 import seoImage from "/home/services/seo.svg";

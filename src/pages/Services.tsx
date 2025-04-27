@@ -2,6 +2,7 @@ import CaseStudies from "../components/case_studies_section/Index";
 import LandingCard from "../components/landing/LandingCard";
 import SEOProcessSection from "../components/seo_process_section/Index";
 import SEOService from "../components/SEOService";
+import ServicesSection from "../components/services_section/Index";
 import { servicesCaseStudiesElements } from "../data/servicesCaseStudies";
 
 import landingIllustration from "/services/landing.svg";
@@ -18,6 +19,7 @@ function Services() {
       <SEOService />
       <SEOProcessSection />
       <CaseStudies caseStudiesElements={servicesCaseStudiesElements} />
+      <ServicesSection />
     </>
   );
 }
