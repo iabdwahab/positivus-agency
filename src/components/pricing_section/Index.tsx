@@ -1,4 +1,4 @@
-import PricingCard from "./PricingCard";
+import { pricingPlansElements } from "../../data/pricingPlans";
 
 function PricingSection() {
   return (
@@ -8,11 +8,7 @@ function PricingSection() {
         <p className="mx-auto max-w-4xl text-lg">Choose a plan that fits your needs. Whether you're a small business or a large enterprise, we have the perfect solution for you.</p>
       </div>
 
-      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-        <PricingCard />
-        <PricingCard />
-        <PricingCard />
-      </div>
+      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">{pricingPlansElements}</div>
     </section>
   );
 }
