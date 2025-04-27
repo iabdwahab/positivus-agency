@@ -1,4 +1,4 @@
-import Accordion from "../components/working_process/Accordion";
+import Accordion from "../components/global/Accordion";
 
 export const workingProcessList = [
   {
