@@ -7,7 +7,7 @@ SectionHeading.Title = function ({ children }: { children: string }) {
 };
 
 SectionHeading.Description = function ({ children }: { children: string }) {
-  return <p className="leading-snug max-lg:text-center lg:max-w-1/2">{children}</p>;
+  return <p className="leading-snug max-lg:text-center lg:max-w-1/3">{children}</p>;
 };
 
 export default SectionHeading;

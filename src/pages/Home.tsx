@@ -4,6 +4,7 @@ import CTASection from "../components/CTASection";
 import LandingSection from "../components/landing/HomeLanding";
 import ServicesSection from "../components/services_section/Index";
 import Sponsors from "../components/Sponsors";
+import TeamSection from "../components/team_section/Index";
 import WorkingProcess from "../components/working_process/Index";
 import { homeCaseStudiesElements } from "../data/homeCaseStudies";
 
@@ -16,6 +17,7 @@ function Home() {
       <CTASection />
       <CaseStudies caseStudiesElements={homeCaseStudiesElements} />
       <WorkingProcess />
+      <TeamSection />
       <ContactSection />
     </>
   );
