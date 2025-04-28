@@ -28,7 +28,7 @@ export const teamMembersList: teamMemberInterface[] = [
   },
   {
     id: 2,
-    name: "Alice Johnson",
+    name: "John Doe",
     position: "Senior SEO Specialist",
     description: "+5 years of experience in SEO and content marketing. Skilled in keyword research and on-page optimization.",
     picture: "/team/member-3.svg",
