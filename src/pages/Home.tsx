@@ -14,7 +14,7 @@ function Home() {
       <LandingSection />
       <Sponsors />
       <ServicesSection />
-      <CTASection />
+      <CTASection theme="white" title="Let's make things happen" description="Contact us today to learn more about how our digital marketing services can help your business grow and succeed online." />
       <CaseStudies caseStudiesElements={homeCaseStudiesElements} />
       <WorkingProcess />
       <TeamSection />

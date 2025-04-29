@@ -1,3 +1,4 @@
+import CTASection from "../components/CTASection";
 import LandingCard from "../components/landing/LandingCard";
 import SuccessStoriesSection from "../components/success_stories/Index";
 
@@ -12,6 +13,7 @@ function UseCases() {
         <LandingCard.Image src={landingImage} />
       </LandingCard>
       <SuccessStoriesSection />
+      <CTASection theme="green" title="Let's Create Your Next Success Story" description="Contact us today to learn more about how our digital marketing services can help your business grow and succeed online." />
     </>
   );
 }
