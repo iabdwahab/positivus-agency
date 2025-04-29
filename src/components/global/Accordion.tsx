@@ -14,7 +14,7 @@ function Accordion({ data, index }: { data: workingProcessInterface; index: numb
 
   return (
     <div className={`${isOpen ? "bg-primary" : "bg-gray"} duration-normal rounded-4xl border border-b-4 p-2 transition lg:p-6`}>
-      <button onClick={toggleAccordion} className="flex w-full cursor-pointer items-center justify-between gap-4 rounded-lg p-2 focus-visible:outline">
+      <button onClick={toggleAccordion} className={`${!isOpen ? "hover:opacity-50" : ""} flex w-full cursor-pointer items-center justify-between gap-4 rounded-lg p-2 focus-visible:outline`}>
         <div className="flex items-center gap-4 font-medium">
           <span className="text-2xl lg:text-5xl">{addLeadingZero(index + 1)}</span>
           <h4 className="text-left lg:text-3xl">{title}</h4>
